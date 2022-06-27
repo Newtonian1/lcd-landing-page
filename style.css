@@ -19,7 +19,7 @@ a {
 }
 
 button {
-    color: white;
+    color: #E5E7EB;
     background-color: #3882F6;
     padding: 12px 36px;
     border: 0;
@@ -113,11 +113,53 @@ figure {
 /*Block 3 styling: */
 .block3 {
     background-color: #E5E7EB;
+    flex-direction: column;
+    padding: 150px 300px;
+}
+
+.quote {
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    align-self: flex-start;
+    margin: 0;
+}
+
+.quote-attribute {
+    font-size: 24px;
+    font-weight: 700;
+    align-self: flex-end;
+    margin: 10px 0 0 0;
 }
 
 /*Block 4 styling: */
+.block4 {
+    justify-content: center;
+    align-items: center;
+}
+
+.banner {
+    background-color: #3882F6;
+    color:#E5E7EB;
+    padding: 32px 64px;
+    margin: 64px 0;
+    border-radius: 10px;
+}
+
+.banner-text * {
+    margin: 5px 100px 5px 0;
+}
+
+#button-bottom {
+    border: 2px solid #E5E7EB;
+}
 
 /*Footer styling: */
 .footer {
     background-color: #1f2937;
+    color: #E5E7EB;
+    padding: 16px;
+    justify-content: center;
+    align-items: center;
 }
