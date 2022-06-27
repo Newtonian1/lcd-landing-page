@@ -51,7 +51,7 @@ button {
 }
 
 .header ul {
-    gap: 16px;
+    gap: 20px;
 }
 
 .header a,
@@ -61,7 +61,7 @@ button {
 }
 
 .content1 {
-    gap: 16px;
+    gap: 32px;
 }
 
 .content1-left h1 {
@@ -73,11 +73,42 @@ button {
 
 #james-murphy {
     width: 50%;
-    height: auto;
     flex: 1 1 auto;
 }
 
 /*Block 2 styling: */
+.block2 h2 {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 900;
+    text-align: center;
+    margin: 50px 0;
+}
+
+.figures {
+    justify-content: center;
+    gap: 48px;
+}
+
+figure {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    margin: 0;
+}
+
+.lp {
+    width: 200px;
+    height: 200px;
+    border: 2px solid #3882F6;
+    border-radius: 10px;
+    margin: 0;
+}
+
+.figures p {
+    text-align: center;
+    margin: 10px 0 80px 0;
+}
 
 /*Block 3 styling: */
 .block3 {
